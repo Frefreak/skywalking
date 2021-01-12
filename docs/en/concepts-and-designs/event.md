@@ -49,5 +49,4 @@ The start time of the event. This field is mandatory when an event is reported.
 The end time of the event. This field may be empty if the event has not stopped yet, otherwise it should be a valid timestamp after `startTime`.
 
 **NOTE:** When reporting an event, you typically call the report function twice, one for starting of the event and the other one for ending of the event, with the same UUID.
-There are also cases where you have both the start time and end time already, for example, when exporting events from a 3rd-party system, the start time and end time are already known so that you can
-call the report function only once.
+There are also cases where you have both the start time and end time already, for example, when exporting events from a 3rd-party system, the start time and end time are already known so that you can call the report function only once.
