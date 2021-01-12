@@ -7,7 +7,7 @@ This doc covers the design of how SkyWalking collects events and what events loo
 
 ## How to Report Events
 
-SkyWalking backend supports three protocols to collect events, gRPC, HTTP, and Kafka. Any agent or CLI that implements one of these protocols can report events to the SkyWalking.
+SkyWalking backend supports three protocols to collect events, gRPC, HTTP, and Kafka. Any agent or CLI that implements one of these protocols can report events to SkyWalking.
 Currently, the officially supported clients to report events are:
 
 - [ ] Java Agent Toolkit: Use the Java agent toolkit to report events from inside the applications.
