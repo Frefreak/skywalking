@@ -32,7 +32,7 @@ The name of the event. For example, `Start`, `Stop`, `Crash`, `Reboot`, `Upgrade
 
 ### Type
 
-The type of the event. This field is friendly for UI visualization, where events of type `Normal` is considered as normal operations,
+The type of the event. This field is friendly for UI visualization, where events of type `Normal` are considered as normal operations,
 while `Error` is considered as unexpected operations, such as `Crash` events, therefore we can mark them with different colors to be easier identified.
 
 ### Message
