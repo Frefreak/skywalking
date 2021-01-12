@@ -2,7 +2,7 @@
 
 SkyWalking already supports the three pillars of observability, namely logs, metrics, and traces.
 In reality, a production system experiences many other events that may affect the performance of the system, such as upgrading, rebooting, chaos testing, etc.
-Although some of these events can reflect from the logs, there are also many other events that can not, hence SkyWalking provides a more native way to collect these events.
+Although some of these events are reflected in the logs, there are many other events that can not. Hence, SkyWalking provides a more native way to collect these events.
 This doc covers the design of how SkyWalking collects events and what events look like in SkyWalking.
 
 ## How to Report Events
